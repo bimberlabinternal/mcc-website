@@ -72,12 +72,13 @@ a:hover {
 
 .btn.btn-primary {
   width: auto;
-  margin-left: 10px;
+  margin-left: 0px;
   font-family: Montserrat, sans-serif;
   background: rgba(0,0,0,0.4);
   border-width: 2px;
   border-color: rgb(255,255,255);
   border-radius: 20px;
+  margin-right: 10px;
 }
 
 .btn.btn-primary.scroll-down {
@@ -230,6 +231,8 @@ nav {
 
 #stats-buttons {
   margin-bottom: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 #accordion-1 h2 {
