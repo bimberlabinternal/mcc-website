@@ -9,16 +9,15 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
-    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
-    <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
+    <link rel="stylesheet" href="assets/css/Masonry-gallery-cards-responsive.css">
+    <link rel="stylesheet" href="assets/css/Responsive-Product-Slider.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/tablaresponsive.css">
 </head>
 
 <body>
     <nav class="navbar navbar-light navbar-expand-lg fixed-top">
-        <div class="container"><img id="logo" src="assets/img/MCC%20new%20logo%20v2.svg" style="margin-right: 10px;"><a class="navbar-brand" href="#">Marmoset Coordinating Center</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container"><img id="logo" src="assets/img/MCC%20new%20logo%20v2.svg" style="margin-right: 10px;"><a class="navbar-brand d-none d-sm-none d-md-block d-lg-none d-xl-block d-xxl-block" href="#">Marmoset Coordinating Center</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-2">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link active" href="index.html">home</a></li>
@@ -40,17 +39,93 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h1>tools for marmoset neuroscience research</h1>
-                    <h2>marmoset brain connectivity atlas</h2>
-                    <p>The marmoset brain connectivity atlas's immediate aim is to create a systematic, publicly available digital repository for data on the connections between different cortical areas, in a primate species. <a href="https://www.marmosetbrain.org/" target="_blank">Visit site</a>&nbsp;<i class="fa fa-angle-right"></i></p>
-                    <h2>Brain/MINDS Marmoset&nbsp; Reference Atlas</h2>
-                    <p>Brain/MINDS is a national project started by Japan in 2014 that aims to build a multiscale structural and functional marmoset brain map. <a href="https://dataportal.brainminds.jp/atlas-package-download-main-page" target="_blank">Visit site</a>&nbsp;<i class="fa fa-angle-right"></i></p>
-                    <h2>Marmoset Gene Atlas</h2>
-                    <p>The marmoset gene atlas's aim is to establish a genome-wide, high-resolution atlas of gene expression throughout the common marmoset brain using in situ hybridization analysis. <a href="https://gene-atlas.brainminds.riken.jp/" target="_blank">Visit site</a>&nbsp;<i class="fa fa-angle-right"></i></p>
-                    <h2>Marmoset Brain Mapping</h2>
-                    <p>The Marmoset Brain Mapping Project was launched in 2016 to build comprehensive brain atlases and tools to facilitate neuroimaging and translational studies. <a href="https://marmosetbrainmapping.org/" target="_blank">Visit site</a>&nbsp;<i class="fa fa-angle-right"></i></p>
-                    <h2>Marmoset reference genome</h2>
-                    <p>Paragraph. <a href="https://www.ncbi.nlm.nih.gov/data-hub/taxonomy/9483/" target="_blank">Visit site</a>&nbsp;<i class="fa fa-angle-right"></i></p>
+                    <h1>data tools for marmoset neuroscience research</h1>
+                </div>
+            </div>
+            <div id="tools-cards">
+                <div class="row" data-masonry="{&quot;percentPosition&quot;: true }">
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <picture type="" srcset=""><img class="card-img-top p-3" src="assets/img/marmoset_header.png" alt="" style="border-radius: 24px; object-fit: cover"></picture>
+                            <hr>
+                            <div class="card-body">
+                                <p class="card-text text-muted">The marmoset brain connectivity atlas's immediate aim is to create a systematic, publicly available digital repository for data on the connections between different cortical areas, in a primate species.<br></p><a href="https://www.marmosetbrain.org/" target="_blank">Visit site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <picture type="" srcset=""><img class="card-img-top p-3" src="assets/img/logo_brainminds_dataportal.png" alt="" style="border-radius: 24px; object-fit: cover"></picture>
+                            <hr>
+                            <div class="card-body">
+                                <p class="card-text text-muted">Brain/MINDS is a national project started by Japan in 2014 that aims to develop novel, cutting-edge technologies that support brain mapping, with a special focus on building a multiscale structural and functional marmoset brain map.<br></p><a href="https://dataportal.brainminds.jp/atlas-package-download-main-page" target="_blank">Visit site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <picture type="" srcset=""><img class="card-img-top p-3" src="assets/img/gene%20atals.png" alt="" style="border-radius: 24px; object-fit: cover"></picture>
+                            <hr>
+                            <div class="card-body">
+                                <p class="card-text text-muted">The marmoset gene atlas's aim is to establish a genome-wide, high-resolution atlas of gene expression throughout the common marmoset brain using in situ hybridization analysis.<br></p><a href="https://gene-atlas.brainminds.riken.jp/" target="_blank">Visit site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="card4" class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <picture type="" srcset=""><img class="card-img-top p-3" src="assets/img/marmoset%20brain%20mapping%20logo.png" alt="" style="border-radius: 24px; object-fit: cover"></picture>
+                            <hr>
+                            <div class="card-body">
+                                <p class="card-text text-muted">The Marmoset Brain Mapping Project was launched in 2016 to build comprehensive brain atlases and tools to facilitate neuroimaging and translational studies.<br></p><a href="https://marmosetbrainmapping.org/" target="_blank">Visit site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="card5" class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <picture type="" srcset=""><img id="card5" class="card-img-top" src="assets/img/marmoset%20genome%20project.jpg" alt="" style="border-radius: 0px;object-fit: cover;"></picture>
+                            <hr>
+                            <div class="card-body">
+                                <p class="card-text text-muted">The Marmoset Genome Sequencing Consortium is a collaboration between the Baylor College of Medicine Human Genome Sequencing Center and the Genome Institute at Washington University (St. Louis, MO). A female marmoset selected from SNPRC serves as the reference animal and other individuals have also been sequenced to provide information about with-in species genetic variation.</p><a href="https://www.ncbi.nlm.nih.gov/data-hub/taxonomy/9483/" target="_blank">Visit site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><script async="" src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"></script>
+            </div>
+        </div>
+    </section>
+    <section id="resources" class="light">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>other marmoset resources</h1>
+                    <div class="accordion" role="tablist" id="accordion-1">
+                        <div class="accordion-item" id="resources-links">
+                            <h2 class="accordion-header" role="tab"><button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-1" aria-expanded="true" aria-controls="accordion-1 .item-1">Links</button></h2>
+                            <div class="accordion-collapse collapse show item-1" role="tabpanel" data-bs-parent="#accordion-1">
+                                <div class="accordion-body">
+                                    <p class="mb-0"><a href="https://www.marmohub.org/" target="_blank">Marmohub.org</a><i class="fas fa-external-link-alt"></i></p>
+                                    <p class="mb-0"><a href="https://primate.wisc.edu/primate-info-net/pin-factsheets/pin-factsheet-common-marmoset/" target="_parent">Primate info net</a><i class="fas fa-external-link-alt"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item" id="resources-whitepapers">
+                            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-2" aria-expanded="false" aria-controls="accordion-1 .item-2">Whitepapers</button></h2>
+                            <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-1">
+                                <div class="accordion-body">
+                                    <p class="mb-0"><a href="/assets/pdf/2021_marmoset_white_paper.pdf" target="_blank">NIH 2021 Marmoset Community White Paper</a><i class="far fa-file-pdf"></i></p>
+                                    <p class="mb-0"><a href="/assets/pdf/2019_marmoset_white_paper.pdf" target="_blank">NIH 2019 Marmoset Community White Paper</a><i class="far fa-file-pdf"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item" id="resources-protocols">
+                            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-3" aria-expanded="false" aria-controls="accordion-1 .item-3">Protocols</button></h2>
+                            <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
+                                <div class="accordion-body">
+                                    <p class="mb-0">Please check back soon for downloadable protocols</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -9,16 +9,15 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
-    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
-    <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
+    <link rel="stylesheet" href="assets/css/Masonry-gallery-cards-responsive.css">
+    <link rel="stylesheet" href="assets/css/Responsive-Product-Slider.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/tablaresponsive.css">
 </head>
 
 <body>
     <nav class="navbar navbar-light navbar-expand-lg fixed-top">
-        <div class="container"><img id="logo" src="assets/img/MCC%20new%20logo%20v2.svg" style="margin-right: 10px;"><a class="navbar-brand" href="#">Marmoset Coordinating Center</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container"><img id="logo" src="assets/img/MCC%20new%20logo%20v2.svg" style="margin-right: 10px;"><a class="navbar-brand d-none d-sm-none d-md-block d-lg-none d-xl-block d-xxl-block" href="#">Marmoset Coordinating Center</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-2">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link active" href="index.html">home</a></li>
@@ -36,7 +35,7 @@
             </div>
         </div>
     </nav>
-    <section class="d-flex align-items-end dark" id="stats">
+    <section class="d-flex align-items-end dark px-sm-1 px-1" id="stats">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 text-center d-md-flex align-self-end justify-content-md-center" id="stats-buttons"><a class="btn btn-primary" role="button" href="#advantages">Why marmosets?</a><a class="btn btn-primary" role="button" href="learn.html#disease-models">Disease models</a><a class="btn btn-primary" role="button" href="learn.html#neuro-technologies">Technologies</a></div>
@@ -59,7 +58,7 @@
                                     <td><span>height:&nbsp;&nbsp;</span>15-25cm (excluding tail)<br></td>
                                 </tr>
                                 <tr>
-                                    <td><span>weight:&nbsp;&nbsp;</span>250-400g<br></td>
+                                    <td><span>weight:&nbsp;&nbsp;</span>250-550g&nbsp;<br></td>
                                 </tr>
                                 <tr>
                                     <td><span>life span:&nbsp;&nbsp;</span>12-15 years<br></td>
@@ -86,7 +85,7 @@
             </div>
         </div>
     </section>
-    <section id="advantages" class="light">
+    <section id="advantages" class="light px-sm-1 px-1">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -99,7 +98,7 @@
             <div class="row">
                 <div class="col">
                     <h2>small size and easy handling</h2>
-                    <p>The first advantage of marmosets over other NHP models such as macaques, is their small size, which is similar to lab rats. Adult marmosets are between 15 and 25cm high, excluding the tail, and weigh between 250 and 400 grams. These features make marmosets easier to handle than larger NHPs, requiring less cost and skill in their maintenance (eg. caging, feeding). Furthermore, due to their small size, marmosets require limited amounts of test compounds during experiments, a marked advantage when testing precious materials.<br></p>
+                    <p>The first advantage of marmosets over other NHP models such as macaques, is their small size, which is similar to lab rats. Adult marmosets are between 15 and 25cm high, excluding the tail, and weigh between 250 and 550 grams (obese animals may weight more). These features make marmosets easier to handle than larger NHPs, requiring less cost and skill in their maintenance (eg. caging, feeding). Furthermore, due to their small size, marmosets require limited amounts of test compounds during experiments, a marked advantage when testing precious materials.<br></p>
                     <p>Easier handling is also attributed to the fact that to date, no fatal zoonotic diseases that can be transmitted to humans have been identified in marmosets, an advantage over macaques who can harbor herpes B.<br></p>
                 </div>
             </div>
@@ -113,7 +112,7 @@
             <div class="row">
                 <div class="col">
                     <p>Another advantage of marmosets is their high reproductive efficiency. Marmosets are easily bred in captivity and demonstrate the highest reproductive efficiency of any anthropoid primate.&nbsp;<br></p>
-                    <p>They reach sexual maturity at 1.5 years old and produce 2-3 pups every 5-6 months. During its lifespan a marmoset will give birth 20-30 times and will produce 40-80 pups.&nbsp;</p>
+                    <p>They reach sexual maturity at 1.5 years old and produce 2-3 pups every 5-6 months. If an adult female is in breeding for 6 years, she will give birth about 12 times and will produce roughly 24 infants.&nbsp;</p>
                     <p>As an example, 10 macaque breeding females will, in two years’ time, produce a maximum of 20 offspring, all of which will be immature (i.e, the reproductive population will not have increased during that time). In contrast, in the same 2-year period, 10 marmoset breeding females will produce an average of 60 offspring and the reproductive population will have tripled, as marmosets reach reproductive maturity by 14-18 months of age.&nbsp;</p>
                 </div>
                 <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center">
@@ -167,14 +166,13 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <p>Marmosets offer unique opportunities to study and understand biomedical processes that have not been feasible to model in other NHPs.&nbsp;The fast maturation and relatively short life span of marmosets makes them a valuable resource to study developmental, chronic and aging related disease, which are among the most pressing US human health concerns. Marmosets reach sexual maturity at around 1.5 years and by 8-13 years of age show signs of age-related pathologies such as an increase in cancers, amyloidosis, pathogenic tau accumulation, diabetes and renal diseases, a decrease in lean muscle mass, hearing loss as well as declines in cognitive and motor function with increased age.&nbsp;<br></p>
+                    <p>Marmosets offer unique opportunities to study and understand biomedical processes that have not been feasible to model in other NHPs.&nbsp;The fast maturation and relatively short life span of marmosets makes them a valuable resource to study developmental, chronic and aging related disease, which are among the most pressing US human health concerns. Marmosets reach sexual maturity at around 1.5 years and by 8-13 years of age show signs of age-related pathologies such as an increase in cancers, amyloidosis, pathogenic tau accumulation, diabetes and renal diseases, a decrease in lean muscle mass, hearing loss as well as declines in cognitive and motor function with increased age.&nbsp;<br></p><img class="float-none float-lg-end float-xl-end float-xxl-end" id="monkey-life-cycle" src="assets/img/monkey%20life%20cycle%20v2.png">
                 </div>
-                <div class="col-12 col-lg-6 col-xl-6 col-xxl-6"><img class="img-fluid" src="assets/img/monkey%20life%20cycle%20v2.png"></div>
             </div>
             <div class="row">
                 <div class="col">
                     <p>Notably,&nbsp;the time period required to move from early to late life (i.e. to advance through the stages of development, aging or chronic disease) is within the range of a typical, NIH-funded project. Macaques on the other hand do not reach sexual maturity and geriatric age until around 3 and 20 years, respectively.&nbsp;</p>
-                    <p>Furthermore, like humans, marmosets are typically group-housed with pair-bonded parents and 2 generations of offspring, making it possible to observe the process of aging across three generations of animals in the same cage. This is a particularly attractive feature for transgenic models in which disease onset may depend on aging factors, such as neurodegenerative disorders like Alzheimer's Disease and Parkinson's Disease.</p>
+                    <p>Furthermore, like humans, marmosets are typically group-housed with pair-bonded parents and multiple litters of offspring, making it possible to observe the process of aging across two generations of animals in the same cage. This is a particularly attractive feature for transgenic models in which disease onset may depend on aging factors, such as neurodegenerative disorders like Alzheimer's Disease and Parkinson's Disease.&nbsp;</p>
                 </div>
             </div>
         </div>
@@ -182,7 +180,7 @@
             <div class="row">
                 <div class="col">
                     <h2>brain anatomy and function</h2>
-                    <p>Although the marmoset brain in small, it retains anatomical and functional organization specific to primates, including humans. This includes a large neocortex, granular prefrontal cortex, expanded visual and auditory cortical fields and reduced olfactory regions. The marmoset brain is also better suited for studying circuit wiring and connectomics in a complex NHP because the macaque brain which is several magnitudes larger still poses a big data challenge for computational tools.&nbsp;<br></p>
+                    <p>Although the marmoset brain is small, it retains anatomical and functional organization specific to primates, including humans. This includes a large neocortex, granular prefrontal cortex, expanded visual and auditory cortical fields and reduced olfactory regions. The marmoset brain is also better suited for studying circuit wiring and connectomics in a complex NHP because the macaque brain which is several magnitudes larger still poses a big data challenge for computational tools.&nbsp;<br></p>
                     <p>In addition,&nbsp;in contrast to the large and convoluted macaque brain, the marmoset cortex is lissencephalic (i.e. smooth).&nbsp;This greatly facilitates the mapping of functional brain areas by neuroimaging techniques, such as fMRI and optical imaging, as well as by electrophysiology, with high spatial resolution&nbsp;as all of the neocortical fields are accessible directly below the skull rather than within sulci.<br></p>
                 </div>
             </div>
@@ -198,12 +196,12 @@
             </div>
         </div>
     </section>
-    <section id="disease-models" class="dark">
+    <section id="disease-models" class="dark px-sm-1 px-1">
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h1>Disease modes in marmosets</h1>
-                    <p>Marmosets are utilized as animal models in a wide diversity of biomedical research disciplines, ranging from infectious disease to reproductive biology but neuroscience remains the dominant area in which this New World primate is used. Some of these disease models include the following:<br></p>
+                    <h1>Disease models in marmosets</h1>
+                    <p>Marmosets are utilized as animal models in a wide diversity of biomedical research disciplines, ranging from infectious disease (eg. Zika, Hepatits, E. bola) to reproductive biology but neuroscience remains the dominant area in which this New World primate is used. Some of these disease models include the following:<br></p>
                 </div>
             </div>
             <div class="row">
@@ -213,26 +211,30 @@
                         <li>Alzheimer's Disease</li>
                         <li>Parkinson's Disease</li>
                         <li>Huntington's Disease</li>
+                        <li>Multiple Sclerosis</li>
                     </ul>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                     <ul>
-                        <li>Multiple Sclerosis</li>
                         <li>Stroke</li>
                         <li>Spinal cord injury</li>
                         <li>Major depressive disorder</li>
+                        <li>Anxiety</li>
+                        <li>Behavioral endocrinology</li>
                     </ul>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                     <ul>
                         <li>Hearing loss</li>
                         <li>Vision</li>
+                        <li>Obesity</li>
+                        <li>Toxicology</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
-    <section id="neuro-techniques" class="light">
+    <section id="neuro-techniques" class="light px-sm-1 px-1">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -242,7 +244,7 @@
             </div>
         </div>
     </section>
-    <section id="genomic-techniques" class="dark">
+    <section id="genomic-techniques" class="dark px-sm-1 px-1">
         <div class="container">
             <div class="row">
                 <div class="col">
