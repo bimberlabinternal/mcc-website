@@ -105,6 +105,13 @@ a:hover {
 .for-fig {
   margin-top: 50px;
   text-align: center;
+  margin-bottom: 0px;
+}
+
+.for-fig2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 @media (min-width: 992px) {
@@ -227,6 +234,8 @@ nav {
 
 #reproduction-table {
   width: 507px;
+  font-size: 14px;
+  margin-bottom: 16px;
 }
 
 #stats-buttons {
@@ -332,5 +341,10 @@ th.green {
   padding-bottom: 15px;
   padding-left: 15px;
   font-size: 24px;
+}
+
+#footer p {
+  margin-top: 16px;
+  text-align: center;
 }
 
